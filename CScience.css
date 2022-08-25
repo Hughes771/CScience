@@ -1,0 +1,96 @@
+body {
+  background-color: lightblue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display:inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+   font-size: 25px;
+}
+
+li a:hover:not(.active) {
+  background-color: #EA8C8F;
+}
+
+.active {
+  background-color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: pink;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 25px;
+}
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+ 
+}
+.item2 {
+	
+}
+p {
+	font-size: 1.25 rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+#intro {
+  background-color: yellow;
+}
+.center {
+  margin-left: 200;
+  margin-right: 700;
+  width: 50%;
+}
+#lable{
+   font-size: 35px;
+} 
+.grid6 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: pink;
+  padding: 60px;
+}
+
+.grid6 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 50px 0;
+  font-size: 80px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 100px;
+  font-size: 30px;
+}
+
+.item3 {
+ grid-column: 1 / span 3;
+  grid-row: 1;
+}
